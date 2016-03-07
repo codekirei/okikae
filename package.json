@@ -1,0 +1,30 @@
+{
+  "name": "okikae.css",
+  "version": "0.1.0",
+  "description": "a minimal css reset",
+  "main": "okikae.css",
+  "scripts": {
+    "test": "stylelint okikae.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codekirei/okikae.css.git"
+  },
+  "keywords": [
+    "css",
+    "reset"
+  ],
+  "author": "Jacob Blakely (codekirei)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codekirei/okikae.css/issues"
+  },
+  "homepage": "https://github.com/codekirei/okikae.css#readme",
+  "devDependencies": {
+    "stylelint": "^4.4.0",
+    "stylelint-config-standard": "^3.0.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  }
+}
